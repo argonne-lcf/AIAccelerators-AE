@@ -1,0 +1,5 @@
+Jobid: 10060779
+qsub -I -n 1 -t 120 -A datascience -q bigmem
+Thu Mar 03 18:21:11 2022 +0000 (UTC) submitted with cwd set to: /lus/theta-fs0/projects/datascience/arnoldw/bert_try_2/BERT
+jobid 10060779 submitted from terminal /dev/pts/13
+Thu Mar 03 18:27:41 2022 +0000 (UTC) Info: user delete requested; removing job from the queue

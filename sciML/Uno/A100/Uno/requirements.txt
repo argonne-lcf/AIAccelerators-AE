@@ -1,0 +1,10 @@
+numpy
+pandas
+numba
+patsy
+statsmodels
+tables
+astropy
+matplotlib
+scikit-learn
+tqdm

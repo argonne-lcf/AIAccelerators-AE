@@ -1,0 +1,2 @@
+environment: line 5: __conda_exe: command not found
+/opt/lmod/stable/lmod/lmod/init/bash: line 82: unset: `($ENV_NAME/$CONDA_DEFAULT_ENV)': not a valid identifier

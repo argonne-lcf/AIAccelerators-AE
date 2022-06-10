@@ -1,0 +1,25 @@
+Jobid: 10060996
+qsub -I -n 1 -t 60 -A datascience -q single-gpu
+Fri Mar 04 19:30:02 2022 +0000 (UTC) submitted with cwd set to: /lus/theta-fs0/projects/datascience/arnoldw/bert_try_2/BERT
+jobid 10060996 submitted from terminal /dev/pts/13
+Fri Mar 04 19:30:17 2022 +0000 (UTC) 
+Fri Mar 04 19:30:17 2022 +0000 (UTC) Command: '/usr/bin/ssh' 'thetagpu11-gpu2' '/usr/bin/cobalt-launcher.py' '--nf' '/var/tmp/cobalt.10060996' '--jobid' '10060996' '--cwd' '/lus/theta-fs0/projects/datascience/arnoldw/bert_try_2/BERT' '--env' 'COBALT_JOBID=10060996' '/bin/sleep' '3600'
+Fri Mar 04 19:30:17 2022 +0000 (UTC) 
+Fri Mar 04 19:30:17 2022 +0000 (UTC) Environment:
+Fri Mar 04 19:30:17 2022 +0000 (UTC) SHELL=/bin/bash
+Fri Mar 04 19:30:17 2022 +0000 (UTC) COBALT_NODEFILE=/tmp/tmp0KRZin
+Fri Mar 04 19:30:17 2022 +0000 (UTC) COBALT_PARTNAME=thetagpu11-gpu2
+Fri Mar 04 19:30:17 2022 +0000 (UTC) COBALT_JOBID=10060996
+Fri Mar 04 19:30:17 2022 +0000 (UTC) COBALT_STARTTIME=1646422207
+Fri Mar 04 19:30:17 2022 +0000 (UTC) LOGNAME=arnoldw
+Fri Mar 04 19:30:17 2022 +0000 (UTC) USER=arnoldw
+Fri Mar 04 19:30:17 2022 +0000 (UTC) COBALT_ENDTIME=1646425807
+Fri Mar 04 19:30:17 2022 +0000 (UTC) COBALT_PARTSIZE=1
+Fri Mar 04 19:30:17 2022 +0000 (UTC) HOME=/home/arnoldw
+Fri Mar 04 19:30:17 2022 +0000 (UTC) COBALT_JOBSIZE=1
+Fri Mar 04 19:30:17 2022 +0000 (UTC) 
+Fri Mar 04 19:30:17 2022 +0000 (UTC) Info: stdin received from /dev/null
+Fri Mar 04 19:30:17 2022 +0000 (UTC) Info: stdout sent to /lus/theta-fs0/projects/datascience/arnoldw/bert_try_2/BERT/10060996.output
+Fri Mar 04 19:30:17 2022 +0000 (UTC) Info: stderr sent to /lus/theta-fs0/projects/datascience/arnoldw/bert_try_2/BERT/10060996.error
+Fri Mar 04 19:30:17 2022 +0000 (UTC) 
+Fri Mar 04 19:35:06 2022 +0000 (UTC) Info: user delete requested with signal SIGTERM by user arnoldw

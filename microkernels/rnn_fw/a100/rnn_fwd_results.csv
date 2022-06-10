@@ -1,0 +1,9 @@
+mfg,mode,dtype,kernel,Batches_per_Step,TimeSteps,BatchSize,HiddenUnits,InputUnits,Compile_Time,sec_per_step,items_per_second,TFLOPS,end_to_end
+A100,Inference,torch.float32,Kernel,1000,50,32,256,256,0.0,0.000026,38449.219501,2.015846,10.656371
+A100,Inference,torch.float32,Kernel,1000,25,16,512,512,0.0,0.000034,29148.289165,3.056420,3.811137
+A100,Inference,torch.float32,Kernel,1000,25,8,512,512,0.0,0.000068,14784.006655,1.550215,3.801467
+A100,Inference,torch.float32,Kernel,1000,50,16,512,512,0.0,0.000063,15834.620621,3.320761,4.351875
+A100,Inference,torch.float16,Kernel,1000,50,64,256,256,0.0,0.000007,144206.168243,7.560556,4.259712
+A100,Inference,torch.float16,Kernel,1000,25,32,512,512,0.0,0.000006,154357.526236,16.185560,3.599094
+A100,Inference,torch.float16,Kernel,1000,25,16,512,512,0.0,0.000010,98774.480987,10.357255,3.631538
+A100,Inference,torch.float16,Kernel,1000,50,32,512,512,0.0,0.000010,98259.260371,20.606460,3.681782
