@@ -1,4 +1,4 @@
-# AIAcceleratorsSC22 AD/AE Evaluation
+# AI Accelerators (SC22) AD/AE Evaluation
 
 This repository is to aid the AD/AE evaluation for the SC22 paper titled "A Comprehensive Evaluation of AI Accelerators for Deep Learning Workloads".
 
