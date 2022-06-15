@@ -93,4 +93,4 @@ time_bwd_avg = time_bwd / steps
 tflop = 2 * 4 * T * I * H * 1 * N + 2 * 4 * T * H * H * 1 * N
 tflops_fwd = tflop / time_bwd_avg / 10**12
 
-print("A100,Training,torch.float16,Kernel,1000,%d,%d,%d,%d,0.0,%f,%f,%f,%f" % (T, N, I, H, time_fwd_avg / N, N / time_bwd_avg, tflops_fwd, endtoend_end-endtoend_start))
+print("A100,Training,torch.float16,Kernel,1000,%d,%d,%d,%d,0.0,%f,%f,%f,%f" % (T, N, I, H, time_bwd_avg / N, N / time_bwd_avg, tflops_fwd, endtoend_end-endtoend_start))
