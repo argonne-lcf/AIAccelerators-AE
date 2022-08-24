@@ -7,7 +7,7 @@ The repository divided into three sub-directories covering all the experiments i
 + [Benchmarks](./benchmarks/) : Code for running Deep Learning Benchmarks.
 + [Scientific ML Applications (sciML)](./sciML/) : Code for running Scientific Machine Learning Applications. 
 
-The codes in this repository are tested on [ThetaGPU](https://www.alcf.anl.gov/support-center/theta/theta-thetagpu-overview) system at ANL. Here we provide instructions to run the experiments listed in the paper in two ways: 
+The codes in this repository are tested on [ThetaGPU](https://www.alcf.anl.gov/support-center/theta/theta-thetagpu-overview) system with Nvidia A100 GPUs at ANL. Here we provide instructions to run the experiments listed in the paper in two ways: 
 * natively, using the scripts as-is with installed software packages listed above or 
 * running using the container images with the instructions provided.
 
