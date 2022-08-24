@@ -33,7 +33,7 @@ Singularity and Docker are container systems that allow users full control over 
 
 * Run the benchmarks evaluated with container images provided. For example, to evaluate GEMMs with Pytorch, use the following command:
     ```bash
-    singularity exec --nv --bind /path:/bind_path /path/sc22-aiaccelerators-ae-pytorch.sif python gemm_torch.py
+    singularity exec --nv --bind /path:/bind_path /path/aiaccelerators-ae-pytorch.sif python gemm_torch.py
     ```
 * Each separate subfolder provides the commands for executing the other benchmarks and applications. Similar steps should be used for Tensorflow as well.
 
@@ -43,15 +43,15 @@ Singularity and Docker are container systems that allow users full control over 
 * Download docker container for PyTorch and Tensorflow from 
   https://hub.docker.com/
     ```bash
-    sudo docker pull zhenxie92/sc22-aiaccelerators-ae-pytorch
+    sudo docker pull zhenxie92/aiaccelerators-ae-pytorch
     or 
-    sudo docker pull zhenxie92/sc22-aiaccelerators-ae-tf2.
+    sudo docker pull zhenxie92/aiaccelerators-ae-tf2.
     ```
 
 * Run the benchmarks evaluated with container images provided. For example, to evaluate GEMMs with Pytorch, use the following command:
   
     ```bash
-    sudo docker run --gpus all -it --rm zhenxie92/sc22-aiaccelerators-ae-pytorch python gemm_torch.py
+    sudo docker run --gpus all -it --rm zhenxie92/aiaccelerators-ae-pytorch python gemm_torch.py
     ```
 
 
