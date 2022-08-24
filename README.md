@@ -1,6 +1,6 @@
-# AI Accelerators (SC22) AD/AE Evaluation
+# AI Accelerators Evaluation:
 
-This repository is to aid the AD/AE evaluation for the SC22 paper titled "A Comprehensive Evaluation of AI Accelerators for Deep Learning Workloads".
+This repository is to aid the AD/AE evaluation for the paper titled "A Comprehensive Evaluation of AI Accelerators for Deep Learning Workloads".
 
 The repository divided into three sub-directories covering all the experiments in the paper -
 + [Microkernels](./microkernels/) : Code for running Deep Learning Primitives or Microkernels. 
